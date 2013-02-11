@@ -1,0 +1,54 @@
+{
+   "abstract" : "Wrapper around Perl tr/../../ operator",
+   "author" : [
+      "Laurent Dami <lau.....da..@justice.ge.ch>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Text-Transliterator",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Unicode::Normalize" : "0",
+            "Unicode::UCD" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Text::Transliterator" : {
+         "file" : "lib/Text/Transliterator.pm",
+         "version" : "1.01"
+      },
+      "Text::Transliterator::Unaccent" : {
+         "file" : "lib/Text/Transliterator/Unaccent.pm",
+         "version" : "1.00"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "https://github.com/damil/Text-Transliterator"
+      }
+   },
+   "version" : "1.01"
+}
